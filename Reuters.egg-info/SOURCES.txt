@@ -1,6 +1,5 @@
 README.md
 setup.py
-Reuters/Reuters.py
 Reuters/__init__.py
 Reuters.egg-info/PKG-INFO
 Reuters.egg-info/SOURCES.txt

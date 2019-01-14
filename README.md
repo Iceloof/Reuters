@@ -9,6 +9,7 @@ pip install Reuters
 ## Usage
 - Initializing
 ```
+from Reuters import Reuters
 reuters=Reuters('AAPL.OQ')
 ```
 - Get current price

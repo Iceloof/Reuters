@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: Reuters
-Version: 1.0.0
+Version: 1.1.0
 Summary: Reuters ticker information retriever for Python
 Home-page: https://github.com/HurinHu/Reuters
 Author: Hurin Hu
@@ -17,6 +17,7 @@ Description: # Reuters
         ## Usage
         - Initializing
         ```
+        from Reuters import Reuters
         reuters=Reuters('AAPL.OQ')
         ```
         - Get current price
