@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: Reuters
+Version: 1.0.0
+Summary: Reuters ticker information retriever for Python
+Home-page: https://github.com/HurinHu/Reuters
+Author: Hurin Hu
+Author-email: hurin@live.ca
+License: UNKNOWN
+Description: # Reuters
+        Reuters information retrieve
+        
+        ## Install
+        ```
+        pip install Reuters
+        ```
+        
+        ## Usage
+        - Initializing
+        ```
+        reuters=Reuters('AAPL.OQ')
+        ```
+        - Get current price
+        ```
+        reuters.getPrice()
+        ```
+        - Get name
+        ```
+        reuters.getName()
+        ```
+        - Get market capital
+        ```
+        reuters.getMarketCap()
+        ```
+        - Get PE
+        ```
+        reuters.getPE()
+        ```
+        - Get recommendation
+        ```
+        reuters.getRecommendation()
+        ```
+        - Get return of investment
+        ```
+        reuters.getRecommendation()
+        ```
+        - Get return of equity
+        ```
+        reuters.getROE()
+        ```
+        - Get company sector
+        ```
+        reuters.getSector()
+        ```
+        - Get company industry
+        ```
+        reuters.getIndustry()
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
