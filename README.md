@@ -34,7 +34,7 @@ reuters.getRecommendation()
 ```
 - Get return of investment
 ```
-reuters.getRecommendation()
+reuters.getROI()
 ```
 - Get return of equity
 ```
