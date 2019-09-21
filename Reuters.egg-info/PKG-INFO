@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: Reuters
-Version: 1.1.0
+Version: 1.1.1
 Summary: Reuters ticker information retriever for Python
 Home-page: https://github.com/HurinHu/Reuters
 Author: Hurin Hu
@@ -42,7 +42,7 @@ Description: # Reuters
         ```
         - Get return of investment
         ```
-        reuters.getRecommendation()
+        reuters.getROI()
         ```
         - Get return of equity
         ```
