@@ -5,7 +5,7 @@ class Reuters:
     
     def __init__(self, symbol):
         self.symbol = symbol
-        self.res = self.get('https://uk.mobile.reuters.com/companies/api/getFetchCompanyProfile/'+self.symbol)
+        self.res = self.get('https://www.reuters.com/companies/api/getFetchCompanyProfile/'+self.symbol)
     
     def get(self, url):
         session = HTMLSession()
