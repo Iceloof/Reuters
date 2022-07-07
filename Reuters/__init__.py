@@ -8,7 +8,7 @@ class Reuters:
         self.res = self.get('https://www.reuters.com/markets/companies/'+self.symbol)
     
     def getVersion(self):
-        return '1.2.0'
+        return '1.2.1'
 
     def get(self, url):
         res = requests.get(url, headers={'Connection': 'keep-alive',
