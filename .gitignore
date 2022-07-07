@@ -1,0 +1,10 @@
+__pycache__/
+Reuters.egg-info/
+build/
+dist/
+.DS_Store
+/venv
+.idea
+*.html
+._*
+.coverage
